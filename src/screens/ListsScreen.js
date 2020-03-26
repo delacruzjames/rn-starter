@@ -2,7 +2,7 @@
 import React from 'react';
 import { Text, StyleSheet, View, FlatList } from 'react-native';
 
-const ListScreen = () => {
+const ListsScreen = () => {
   const friends = [
     {name: "friend #1", age: "30" },
     {name: "friend #2", age: "23" },
@@ -31,4 +31,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default ListScreen;
+export default ListsScreen;
